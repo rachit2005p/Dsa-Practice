@@ -5,9 +5,9 @@ public:
         int arr[26]={0};
         for(int i =0;i<s.length();i++){
             arr[s[i]-'a']++;
+            arr[t[i]-'a']--;
         }
         for(int j =0;j<s.length();j++){
-            arr[t[j]-'a']--;
             if(arr[t[j]-'a']<0)return false;
         }
 return true;
