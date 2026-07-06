@@ -3,7 +3,7 @@ public:
     int reverse(int x) {
         int reversed = 0;
         while (x != 0) {
-            int pop = x % 10;
+            int pop = x % 10;;
             x /= 10;
             
            
