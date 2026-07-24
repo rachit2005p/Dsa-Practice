@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<int> productExceptSelf(vector<int>& nums) {
+    vector<int productExceptSelf(vector<int>& nums) {
       int n =nums.size();
     vector<int> res(n);
     //forleft
