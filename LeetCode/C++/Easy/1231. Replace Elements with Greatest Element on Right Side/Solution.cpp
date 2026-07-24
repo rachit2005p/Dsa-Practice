@@ -1,5 +1,5 @@
 class Solution {
-public:
+public
     vector<int> replaceElements(vector<int>& arr) {
         int maxx = -1;
         int original=0;  
