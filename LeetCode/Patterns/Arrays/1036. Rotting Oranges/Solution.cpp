@@ -17,7 +17,7 @@ public:
             for (int c = 0; c < cols; ++c) {
                 if (grid[r][c] == 2) {
                     q.push({r, c});
-                } else rif (grid[r][c] == 1) {
+                } else if (grid[r][c] == 1) {
                     freshCount++;
                 }
             }
